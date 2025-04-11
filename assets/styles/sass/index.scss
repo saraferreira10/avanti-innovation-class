@@ -1,0 +1,18 @@
+@use "./abstracts/variables" as *;
+@use "./abstracts/utilities";
+
+@use "./bootstrap/override";
+
+@use "./components/header";
+@use "./components/banner";
+@use "./components/releases";
+@use "./components/swipper";
+@use "./components/card";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+}

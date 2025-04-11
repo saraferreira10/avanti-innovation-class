@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/css/style.comp.css" />
+    <title>Home - Avanti</title>
+  </head>
+  <body>
+    <header class="header d-flex flex-column gap-1 gap-md-0">
+      <div class="bg-primary text-white header__announcement px-4">
+        Ganhe <span class="highlight">R$10,00</span> de desconto no seu primeiro
+        pedido. Utilize o cupom
+        <span class="italic lighter">DESCONTO10</span>
+      </div>
+
+      <div>
+        <div class="row w-100 paddingX-base align-items-center gap-3 gap-lg-0">
+          <div class="col d-flex d-lg-none">
+            <img src="./assets/images/icon-menu.png" alt="Ícone de Menu" />
+          </div>
+          <div class="col center header__logo">
+            <img src="./assets/images/logo.png" alt="Logo Avanti" />
+          </div>
+          <div class="col-lg-5 order-lg-0 order-1">
+            <form class="d-flex w-100 flex-column" role="search" id="form">
+              <div class="d-flex border rounded w-100">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  name="search"
+                  placeholder="Digite aqui o que você procura"
+                  aria-label="Search"
+                />
+                <button class="btn" type="submit">
+                  <img
+                    src="./assets/images/search-interface-symbol.png"
+                    alt="Ícone de busca"
+                    height="15px"
+                  />
+                </button>
+
+              </div>
+
+
+            </form>
+          </div>
+
+          <div class="col">
+            <div class="d-flex align-items-center justify-content-end gap-4">
+              <div class="center gap-2 d-none d-lg-flex">
+                <div>
+                  <img
+                    src="./assets/images/icon-user.png"
+                    alt="Ícone de Usuário"
+                  />
+                </div>
+                <div class="center header__welcome-user">
+                  Olá, <br />
+                  Nome cliente!
+                </div>
+              </div>
+              <div class="header__cart">
+                <img
+                  src="./assets/images/shopping-cart.png"
+                  alt="Ícone de carrinho de compras"
+                  height="25px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-lg-flex justify-content-center w-100">
+          <!--MENU-->
+          <ul
+            class="nav nav-tabs d-flex justify-content-between flex-nowrap overflow-hidden pb-2"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle bold"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >&#9776; Todas as Categorias</a
+              >
+              <!--DROPDOWN-->
+              <ul class="dropdown-menu">
+                <ul class="header__dropdown-department">
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"
+                      ><span>Departamento</span><span>></span></a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="row w-75 header__categories">
+                  <ul class="col">
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                  </ul>
+                  <ul class="col">
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                  </ul>
+                  <ul class="col">
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                    <li>Categoria</li>
+                  </ul>
+                </ul>
+
+                <div>
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+              <!--DROPDOWN-->
+            </li>
+
+            <!--DEPARTAMENT DROPDOWN-->
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departamento
+              </button>
+              <ul class="dropdown-menu justify-content-between">
+                <div class="col">
+                  <p class="text-bold">Departamento</p>
+                  <div
+                    class="d-flex justify-content-between p-0 header__categories"
+                  >
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <!--DEPARTAMENT DROPDOWN-->
+            <!--DEPARTAMENT DROPDOWN-->
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departamento
+              </button>
+              <ul class="dropdown-menu justify-content-between">
+                <div class="col">
+                  <p class="text-bold">Departamento</p>
+                  <div
+                    class="d-flex justify-content-between p-0 header__categories"
+                  >
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <!--DEPARTAMENT DROPDOWN-->
+            <!--DEPARTAMENT DROPDOWN-->
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departamento
+              </button>
+              <ul class="dropdown-menu justify-content-between">
+                <div class="col">
+                  <p class="text-bold">Departamento</p>
+                  <div
+                    class="d-flex justify-content-between p-0 header__categories"
+                  >
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <!--DEPARTAMENT DROPDOWN-->
+            <!--DEPARTAMENT DROPDOWN-->
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departamento
+              </button>
+              <ul class="dropdown-menu justify-content-between">
+                <div class="col">
+                  <p class="text-bold">Departamento</p>
+                  <div
+                    class="d-flex justify-content-between p-0 header__categories"
+                  >
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <!--DEPARTAMENT DROPDOWN-->
+            <!--DEPARTAMENT DROPDOWN-->
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departamento
+              </button>
+              <ul class="dropdown-menu justify-content-between">
+                <div class="col">
+                  <p class="text-bold">Departamento</p>
+                  <div
+                    class="d-flex justify-content-between p-0 header__categories"
+                  >
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <!--DEPARTAMENT DROPDOWN-->
+            <!--DEPARTAMENT DROPDOWN-->
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departamento
+              </button>
+              <ul class="dropdown-menu justify-content-between">
+                <div class="col">
+                  <p class="text-bold">Departamento</p>
+                  <div
+                    class="d-flex justify-content-between p-0 header__categories"
+                  >
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <!--DEPARTAMENT DROPDOWN-->
+            <!--DEPARTAMENT DROPDOWN-->
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departamento
+              </button>
+              <ul class="dropdown-menu justify-content-between">
+                <div class="col">
+                  <p class="text-bold">Departamento</p>
+                  <div
+                    class="d-flex justify-content-between p-0 header__categories"
+                  >
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                    <ul class="d-flex flex-column p-0">
+                      <li>
+                        <a class="dropdown-item p-0 color-primary" href="#"
+                          >Categoria</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item p-0" href="#">Categoria</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <div class="header__img">
+                    <p>
+                      Confira os Produtos
+                      <span class="bold">Que acabaram De chegar</span>
+                    </p>
+
+                    <div class="header__img-btn">
+                      <button>Ver todos</button>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+          </ul>
+          <!--MENU-->
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <div class="banner__img"></div>
+
+      <div class="banner__text">
+        <h1>SUPER<span class="lighter">SALE</span></h1>
+        <p class="banner__text-description">Itens selecionados com até</p>
+        <p class="banner__text-promo">50%OFF</p>
+      </div>
+    </div>
+
+    <section class="releases">
+      <div class="d-flex w-100 justify-content-between mb-3">
+        <h4 class="px-4 bold fs-5">Lançamentos</h4>
+        <a href="#" class="px-1 text-decoration-none releases__link"
+          >Ver mais</a
+        >
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <ul class="d-flex justify-content-between gap-1">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-sm-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-lg-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <ul class="d-flex justify-content-between gap-1">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-sm-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-lg-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <ul class="d-flex justify-content-between gap-1">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-sm-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-lg-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section
+      class="d-flex flex-column flex-lg-row paddingX-base align-items-center justify-content-center gap-5 text-dark"
+    >
+      <div
+        class="w-100 w-lg-50 p-5 bg-gray d-flex justify-content-center align-items-center"
+      >
+        <img
+          src="./assets/images/cup-image.png"
+          alt="Imagem de uma xícara com o logo da Avanti"
+          class="img-fluid"
+        />
+      </div>
+      <div class="w-100 w-lg-50 d-flex flex-column gap-2">
+        <h2 class="text-uppercase bold serif fs-3">Lorem Ipsum</h2>
+        <p>
+          Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+          finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
+          volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra
+          magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor
+          tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla
+          magna consequat interdum. Fusce sagittis elit a libero commodo egestas
+          efficitur id augue.
+        </p>
+        <p>
+          Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+          finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
+          volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra
+          magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor
+          tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla
+          magna consequat interdum. Fusce sagittis elit a libero commodo egestas
+          efficitur id augue.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="w-100 d-flex flex-column flex-lg-row paddingX-base mt-5 py-5 bg-gray align-items-center gap-5"
+    >
+      <div
+        class="w-100 d-flex flex-column text-secondary-gray gap-4 order-2 order-lg-1"
+      >
+        <h3 class="serif text-uppercase bold" style="padding-left: 5.5rem">
+          Lorem ipsum
+        </h3>
+        <div class="d-flex gap-3">
+          <div
+            class="h-50 p-3 d-flex justify-content-center align-items-center rounded-circle bg-primary"
+          >
+            <img
+              src="./assets/images/location.png"
+              alt="Ícone de localização"
+              width="40px"
+            />
+          </div>
+          <p>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+            pellentesque eu, pretium quis, sem.
+          </p>
+        </div>
+        <div class="d-flex gap-3">
+          <div
+            class="h-50 p-3 d-flex justify-content-center align-items-center rounded-circle bg-primary"
+          >
+            <img
+              src="./assets/images/location.png"
+              alt="Ícone de localização"
+              width="40px"
+            />
+          </div>
+          <p>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+            pellentesque eu, pretium quis, sem.
+          </p>
+        </div>
+        <div class="d-flex gap-3">
+          <div
+            class="h-50 p-3 d-flex justify-content-center align-items-center rounded-circle bg-primary"
+          >
+            <img
+              src="./assets/images/location.png"
+              alt="Ícone de localização"
+              width="40px"
+            />
+          </div>
+          <p>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+            pellentesque eu, pretium quis, sem.
+          </p>
+        </div>
+      </div>
+      <div class="w-100 order-1 order-lg-2">
+        <img
+          src="./assets/images/cup-image-2.png"
+          class="img-fluid"
+          alt="Imagem"
+        />
+      </div>
+    </section>
+
+    <section
+      class="d-flex mt-5 flex-column flex-lg-row paddingX-base align-items-center justify-content-center gap-5 text-dark"
+    >
+      <div
+        class="w-100 w-lg-50 p-5 bg-gray d-flex justify-content-center align-items-center"
+      >
+        <img
+          src="./assets/images/cup-image.png"
+          alt="Imagem de uma xícara com o logo da Avanti"
+          class="img-fluid"
+        />
+      </div>
+      <div class="w-100 w-lg-50 d-flex flex-column gap-2">
+        <h2 class="text-uppercase bold serif fs-3">Lorem Ipsum</h2>
+        <p>
+          Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+          finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
+          volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra
+          magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor
+          tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla
+          magna consequat interdum. Fusce sagittis elit a libero commodo egestas
+          efficitur id augue.
+        </p>
+        <p>
+          Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+          finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
+          volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra
+          magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor
+          tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla
+          magna consequat interdum. Fusce sagittis elit a libero commodo egestas
+          efficitur id augue.
+        </p>
+      </div>
+    </section>
+
+    <section class="releases d-none d-lg-flex flex-column mt-4">
+      <div class="d-flex w-100 justify-content-between mb-3">
+        <h4 class="px-4 bold fs-5">Lançamentos</h4>
+        <a href="#" class="px-1 text-decoration-none releases__link"
+          >Ver mais</a
+        >
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <ul class="d-flex justify-content-between gap-1">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-sm-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-lg-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <ul class="d-flex justify-content-between gap-1">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-sm-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-lg-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <ul class="d-flex justify-content-between gap-1">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-sm-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+              <div class="card d-none d-lg-flex" style="width: 18rem">
+                <img
+                  src="./assets/images/card-image.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h3 class="card__description">
+                    Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                  </h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <div>
+                      <span class="card__old-price">R$ 100,00</span>
+                      <h2 class="card__new-price">R$79,90</h2>
+                    </div>
+                    <span class="card__promo">10% off</span>
+                  </div>
+                  <span class="card__caption"
+                    >Ou em até <span>10x de R$ 7,90</span></span
+                  >
+                  <a href="#" class="btn btn-primary w-100 mt-2">Comprar</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <div class="img-banner-1"></div>
+
+    <section class="paddingX-base my-3 text-center">
+      <h3 class="bold fs-6 my-4">
+        Cadastre-se na nossa <span class="text-primary">newsletter</span>
+      </h3>
+      <form
+        class="d-flex flex-column flex-lg-row bg-gray-light align-items-center justify-content-center px-4 py-5 gap-3 rounded-2"
+      >
+        <div class="mb-3 w-100">
+          <input
+            type="text"
+            class="form-control bg-white px-3 border rounded py-2 w-100"
+            id="name"
+            placeholder="Digite seu nome"
+          />
+        </div>
+        <div class="mb-3 w-100">
+          <input
+            type="email"
+            class="form-control bg-white px-3 border rounded py-2 w-100"
+            id="email"
+            placeholder="Digite seu email"
+          />
+        </div>
+        <div class="form-check w-100">
+          <input type="checkbox" class="form-check-input" id="privacy" />
+          <label class="form-check-label text-gray" for="privacy"
+            >Estou de acordo com a
+            <a href="#" class="text-gray">Política de Privacidade</a></label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary w-100 py-2">
+          Cadastrar
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <div
+        class="bg-gray paddingX-base py-3 d-flex flex-column align-items-center justify-content-center"
+      >
+        <div
+          class="d-flex flex-column w-100 flex-lg-row justify-content-between py-5 px-0 mx-0 gap-4 gap-lg-5"
+        >
+          <div
+            class="d-flex flex-column gap-4 align-items-center justify-content-center text-center"
+          >
+            <span class="text-center"
+              ><img src="./assets/images/logo.png" alt="Logo Avanti"
+            /></span>
+            <span
+              class="d-flex justify-content-between align-items-center gap-5"
+            >
+              <a href="#"
+                ><img src="./assets/images/instagram.png" alt="Logo Instagram"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/facebook.png" alt="Logo Facebook"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/youtube.png" alt="Logo Youtube"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/tiktok.png" alt="Logo Tiktok"
+              /></a>
+            </span>
+          </div>
+          <div class="d-none d-lg-flex gap-5">
+            <div>
+              <h4 class="bold fs-7 text-dark">Institucional</h4>
+              <h5 class="fs-7 text-gray-dark">Sobre Nós</h5>
+              <h5 class="fs-7 text-gray-dark">Nossas Lojas</h5>
+              <h5 class="fs-7 text-gray-dark">Privacidade e Segurança</h5>
+              <h5 class="fs-7 text-gray-dark">Termos e Condições</h5>
+            </div>
+            <div>
+              <h4 class="bold fs-7 text-dark">Central de ajuda</h4>
+              <h5 class="fs-7 text-gray-dark">Fale Conosco</h5>
+              <h5 class="fs-7 text-gray-dark">Frete e Entrega</h5>
+              <h5 class="fs-7 text-gray-dark">Trocas e Devoluções</h5>
+              <h5 class="fs-7 text-gray-dark">Formas de Pagamento</h5>
+              <h5 class="fs-7 text-gray-dark">FAQ</h5>
+            </div>
+            <div>
+              <h4 class="bold fs-7 text-dark">Atendimento</h4>
+              <h5 class="fs-7 text-gray-dark">
+                <span class="bold">Telefone:</span> (00) 1234-5678
+              </h5>
+              <h5 class="fs-7 text-gray-dark">
+                <span class="bold">E-mail:</span> exemplo@exemplo.com.br
+              </h5>
+              <h5 class="fs-7 text-gray-dark">
+                <span class="bold">Horário de atendimento:</span>
+                <span>
+                  <br />
+                  Segunda a Sábado: 07h00 às 23h00
+                  <br />
+                  Domingos e Feriados: 07h00 às 21h00
+                </span>
+              </h5>
+            </div>
+          </div>
+
+          <div class="d-flex d-lg-none w-100">
+            <div
+              class="accordion accordion-flush w-100"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item w-100">
+                <h2 class="accordion-header w-100 m-0 p-0">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Institucional
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <h5 class="fs-7 text-gray-dark">Sobre Nós</h5>
+                    <h5 class="fs-7 text-gray-dark">Nossas Lojas</h5>
+                    <h5 class="fs-7 text-gray-dark">Privacidade e Segurança</h5>
+                    <h5 class="fs-7 text-gray-dark">Termos e Condições</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Central de ajuda
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <h5 class="fs-7 text-gray-dark">Fale Conosco</h5>
+                    <h5 class="fs-7 text-gray-dark">Frete e Entrega</h5>
+                    <h5 class="fs-7 text-gray-dark">Trocas e Devoluções</h5>
+                    <h5 class="fs-7 text-gray-dark">Formas de Pagamento</h5>
+                    <h5 class="fs-7 text-gray-dark">FAQ</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Atendimento
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <h5 class="fs-7 text-gray-dark">
+                      <span class="bold">Telefone:</span> (00) 1234-5678
+                    </h5>
+                    <h5 class="fs-7 text-gray-dark">
+                      <span class="bold">E-mail:</span> exemplo@exemplo.com.br
+                    </h5>
+                    <h5 class="fs-7 text-gray-dark">
+                      <span class="bold">Horário de atendimento:</span>
+                      <span>
+                        <br />
+                        Segunda a Sábado: 07h00 às 23h00
+                        <br />
+                        Domingos e Feriados: 07h00 às 21h00
+                      </span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pb-3">
+          <ul
+            class="d-flex flex-wrap justify-content-center align-items-center gap-4"
+          >
+            <li>
+              <img src="./assets/images/icons/amex.png" alt="Logo Amex" />
+            </li>
+            <li>
+              <img
+                src="./assets/images/icons/mastercard.png"
+                alt="Logo mastercard"
+              />
+            </li>
+            <li>
+              <img src="./assets/images/icons/visa.png" alt="Logo visa" />
+            </li>
+            <li>
+              <img
+                src="./assets/images/icons/hipercard.png"
+                alt="Logo hipercard"
+              />
+            </li>
+            <li><img src="./assets/images/icons/elo.png" alt="Logo elo" /></li>
+            <li><img src="./assets/images/icons/b-1.png" alt="Logo b" /></li>
+            <li>
+              <img src="./assets/images/icons/paypal.png" alt="Logo paypal" />
+            </li>
+            <li><img src="./assets/images/icons/pix.png" alt="Logo pix" /></li>
+            <li>
+              <img src="./assets/images/icons/boleto.png" alt="Logo boleto" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="paddingX-base d-flex flex-column text-center gap-3 py-5 my-1 fs-8 text-gray-dark"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+
+        <ul class="d-flex gap-4 justify-content-center align-items-center">
+          <li><img src="./assets/images/encrypt.png" alt="Encrypt" /></li>
+          <li><img src="./assets/images/vtex.png" alt="vtex" /></li>
+          <li><img src="./assets/images/avanti.png" alt="avanti" /></li>
+          <li>
+            <img src="./assets/images/vtex-pci-200.png" alt="vtex-pci-200" />
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/scripts/index.js"></script>
+  </body>
+</html>

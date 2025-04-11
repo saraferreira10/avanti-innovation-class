@@ -1,0 +1,113 @@
+@use "./../abstracts/variables" as *;
+
+.form-control,
+.form-control:focus {
+  box-shadow: none;
+  border: none;
+  padding: 0 20px;
+  background-color: transparent;
+
+  &::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  & + .btn,
+  .btn:focus {
+    outline: none !important;
+    border: none;
+  }
+}
+
+.nav-item a {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: $color-black;
+  border: none !important;
+}
+
+.dropdown-menu {
+  position: fixed !important;
+  padding: 2rem !important;
+  box-shadow: 0px 4px 8px -1px #0000001a;
+  border: none;
+  top: 2rem !important;
+  left: 50% !important;
+  translate: (-50%) !important;
+
+  &.show {
+    width: 75vw !important;
+    height: 22rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translate3d(0px, 140px, 0px) !important;
+  }
+}
+
+.dropdown-item {
+  padding: 0;
+}
+
+.dropdown-item.show {
+  color: $color-primary-blue !important;
+  font-weight: bold;
+}
+
+.dropdown-item:not(.show) {
+  color: $color-black;
+  font-weight: normal;
+}
+
+.dropdown-toggle {
+  font-family: Nunito Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: $color-secondary-gray-dark;
+  outline: none;
+  border: none;
+
+  &:hover {
+    color: $color-primary-blue !important;
+    font-weight: bold;
+  }
+
+  &:not(:hover) {
+    color: $color-black !important;
+  }
+}
+
+.btn-primary {
+  background-color: $color-primary-blue;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.text-dark {
+  color: $color-black;
+}
+
+.form-check-label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: $color-secondary-gray-dark;
+}
+
+.accordion-header, .accordion-item, .accordion-button{
+  background-color: transparent !important;
+  color: black;
+}
+
+.accordion-button{
+  font-weight: bold;
+}

@@ -1,0 +1,119 @@
+@use "./variables" as *;
+
+.highlight {
+  background-color: $color-purple;
+  padding: 0 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.bg-primary {
+  background-color: $color-primary-blue !important;
+}
+
+.text-white {
+  color: $color-white !important;
+}
+
+.paddingX-base {
+  padding: 15px 10%;
+
+  @media (max-width: 360px) {
+    padding: 15px 2rem;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lighter {
+  font-weight: 200;
+}
+
+.color-primary,
+.color-primary li a {
+  color: $color-primary-blue !important;
+  font-weight: bold !important;
+}
+
+.text-bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.bg-gray {
+  background: #c2c2c2;
+}
+
+.bg-gray-light {
+  background: #dedede;
+}
+
+.serif {
+  font-family: "Nunito", serif;
+}
+
+.text-dark {
+  color: $color-black !important;
+}
+
+.bg-gray {
+  background-color: #dedede;
+}
+
+.text-secondary-gray {
+  color: $color-secondary-gray;
+}
+
+.img-banner-1 {
+  background-image: url("../../images/image.svg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center right;
+  position: relative;
+
+  &::after {
+    content: "Entre em contato conosco e verifique a disponibilidade para sua região!";
+    background-color: $color-primary-blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    place-content: center;
+    color: $color-white;
+  }
+}
+
+.text-gray {
+  color: #656565 !important;
+}
+
+.text-gray-dark {
+  color: $color-secondary-gray-dark !important;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.fs-8 {
+  font-size: 12px;
+}
