@@ -227,6 +227,37 @@
   font-weight: bold;
 }
 
+#navbarToggleExternalContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 900;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+#navbarToggleExternalContent > div {
+  overflow-x: auto;
+  background-color: #ffffff;
+  height: 100%;
+  width: 15rem;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-size: small;
+}
+
+.navbar > .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   position: sticky;
   background-color: #ffffff;
