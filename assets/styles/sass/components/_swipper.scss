@@ -24,15 +24,8 @@
     background-repeat: no-repeat;
 
     &::after {
-      content: none !important;
+      font-size: 1rem !important;
     }
   }
-
-  &-button-next {
-    background-image: url("./../../../../assets/images/icon-arrow-next.png");
-  }
-
-  &-button-prev {
-    background-image: url("./../../../../assets/images/icon-arrow-prev.png");
-  }
+  
 }
