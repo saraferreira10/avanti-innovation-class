@@ -1,0 +1,9 @@
+@use "../abstracts/variables" as *;
+
+.form {
+  background-color: $color-gray-scale-light;
+
+  @media (min-width: 960px) {
+    background-color: $color-gray-scale;
+  }
+}

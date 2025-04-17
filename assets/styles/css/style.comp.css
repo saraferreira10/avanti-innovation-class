@@ -63,6 +63,10 @@
   background: #dedede;
 }
 
+.bg-gray-scale-light {
+  background: #F5F5F5;
+}
+
 .serif {
   font-family: "Nunito", serif;
 }
@@ -218,7 +222,9 @@
   color: #303030;
 }
 
-.accordion-header, .accordion-item, .accordion-button {
+.accordion-header,
+.accordion-item,
+.accordion-button {
   background-color: transparent !important;
   color: black;
 }
@@ -612,6 +618,24 @@
   position: absolute;
   left: 0.3rem;
   top: 0.3rem;
+}
+
+.form {
+  background-color: #F5F5F5;
+}
+@media (min-width: 960px) {
+  .form {
+    background-color: #DEDEDE;
+  }
+}
+
+.footer {
+  padding: 15px 10%;
+}
+@media (max-width: 991px) {
+  .footer {
+    padding: 0;
+  }
 }
 
 * {

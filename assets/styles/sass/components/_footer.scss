@@ -1,0 +1,7 @@
+.footer {
+  padding: 15px 10%;
+
+  @media (max-width: 991px) {
+    padding: 0;
+  }
+}

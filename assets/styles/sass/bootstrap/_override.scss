@@ -103,12 +103,14 @@
   color: $color-secondary-gray-dark;
 }
 
-.accordion-header, .accordion-item, .accordion-button{
+.accordion-header,
+.accordion-item,
+.accordion-button {
   background-color: transparent !important;
   color: black;
 }
 
-.accordion-button{
+.accordion-button {
   font-weight: bold;
 }
 
@@ -121,11 +123,10 @@
   width: 100%;
   z-index: 900;
 
-  backdrop-filter: blur(7px); 
-  -webkit-backdrop-filter: blur(7px); 
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
 
-
-  & > div{
+  & > div {
     overflow-x: auto;
     background-color: $color-white;
     height: 100%;
@@ -133,7 +134,7 @@
   }
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
   outline: none;
   padding: 0;
@@ -141,9 +142,9 @@
   font-size: small;
 }
 
-.navbar{
-&> .container-fluid{
-  margin: 0;
-  padding: 0;
-}
+.navbar {
+  & > .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
 }

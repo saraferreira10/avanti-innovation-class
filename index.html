@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="./assets/images/favicon/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
       rel="stylesheet"
@@ -2024,7 +2025,7 @@
         Cadastre-se na nossa <span class="text-primary">newsletter</span>
       </h3>
       <form
-        class="d-flex flex-column flex-lg-row bg-gray-light align-items-center justify-content-center px-4 py-5 gap-3 rounded-2"
+        class="form d-flex flex-column flex-lg-row align-items-center justify-content-center px-5 py-5 gap-3 rounded-2"
       >
         <div class="mb-3 w-100">
           <input
@@ -2049,21 +2050,30 @@
             <a href="#" class="text-gray">Política de Privacidade</a></label
           >
         </div>
-        <button type="submit" class="btn btn-primary w-100 py-2">
-          Cadastrar
-        </button>
+
+        <div class="d-none d-lg-flex">
+          <button type="submit" class="btn btn-primary">
+            Cadastrar
+          </button>
+        </div>
+
+        <div class="d-flex d-lg-none w-100">
+          <button type="submit" class="btn btn-primary w-100">
+            Cadastrar
+          </button>
+        </div>
       </form>
     </section>
 
     <footer>
       <div
-        class="bg-gray paddingX-base py-3 d-flex flex-column align-items-center justify-content-center"
+        class="footer bg-gray-scale-light d-flex flex-column align-items-center justify-content-center"
       >
         <div
           class="d-flex flex-column w-100 flex-lg-row justify-content-between py-5 px-0 mx-0 gap-4 gap-lg-5"
         >
           <div
-            class="d-flex flex-column gap-4 align-items-center justify-content-center text-center"
+            class="d-flex flex-column gap-4 align-items-center text-center"
           >
             <span class="text-center"
               ><img src="./assets/images/logo.png" alt="Logo Avanti"
@@ -2121,7 +2131,7 @@
             </div>
           </div>
 
-          <div class="d-flex d-lg-none w-100">
+          <div class="d-flex d-lg-none w-100 mx-0 relative">
             <div
               class="accordion accordion-flush w-100"
               id="accordionFlushExample"
@@ -2257,7 +2267,7 @@
       <div
         class="paddingX-base d-flex flex-column text-center gap-3 py-5 my-1 fs-8 text-gray-dark"
       >
-        <p>
+        <p class="d-none d-sm-flex">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
           volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -2266,6 +2276,10 @@
           molestie consequat, vel illum dolore eu feugiat nulla facilisis at
           vero eros et accumsan et iusto odio dignissim qui blandit praesent
           luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+
+        <p class="d-flex d-sm-none">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
         </p>
 
         <ul class="d-flex gap-4 justify-content-center align-items-center">
